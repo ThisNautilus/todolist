@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 60px;
+  background-color: #006633;
+}
+.header .header-container {
+  height: 100%;
+  width: 800px;
+  background-color: pink;
+  margin: 0 auto;
+}
+.header .header-container .logo {
+  float: left;
+}
+.header .header-container input {
+  float: right;
+}
