@@ -43,6 +43,7 @@
     }
     h3 {
         position: relative;
+        margin: 10px 0 10px 0;
         span {
             position:absolute;
             top:2px;
@@ -56,64 +57,40 @@
             line-height:22px;
             text-align:center;
             color:#663300;
-            font-size:14px;}
+            font-size:14px;
+        }
     }
-    li input {
-        position:absolute;
-        top:2px;
-        left:10px;
-        width:22px;
-        height:22px;
-        cursor:pointer;
+    li {
+        height: 30px;
+        border-left: 5px  solid #006633;
+        // background-color: pink;
+        border-radius: 5px;
+        margin: 4px 0;
+        input {
+            float: left;
+            margin: 6px 0 6px 10px;
+            height: 18px;
+            width: 18px;
+        }
+        p {
+            float: left;
+            line-height: 30px;
+        }
+        i  {
+            display: block;
+            margin: 6px 10px 6px 0;
+            float: right;
+            color: #CC3333;
+            cursor: pointer;
+        }
     }
-    p {
-        margin: 0;
-    }
-    li p input {
-        top:3px;
-        left:40px;
-        width:70%;
-        height:20px;
-        line-height:14px;
-        text-indent:5px;
-        font-size:14px;}
-    li { 
-        height:32px;
-        line-height:32px;
-        background: #fff;
-        position:relative;
-        margin-bottom: 10px;
-        padding:0 45px;
-        border-radius:3px;
-        border-left: 5px solid #006633;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+    ul li {
+        opacity: 0.5;
+        border-left: 5px  solid #663300;
     }
     ol li {
-        cursor:move;
+        cursor: move;
     }
-    ul li
-    {
-        border-left: 5px solid #999;
-        opacity: 0.5;
-    }
-    li a {
-        position:absolute;
-        top:2px;
-        right:5px;
-        display:inline-block;
-        width:14px;
-        height:12px;
-        border-radius:14px;
-        border:6px double #FFF;
-        background:#CCC;
-        line-height:14px;
-        text-align:center;
-        color:#FFF;
-        font-weight:bold;
-        font-size:14px;
-        cursor:pointer;
-    }
-    
 }
 .footer {
     text-align: center;
